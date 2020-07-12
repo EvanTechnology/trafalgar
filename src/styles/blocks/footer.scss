@@ -1,0 +1,29 @@
+.footer {
+    background: rgb(103,195,243);
+    background: linear-gradient(180deg, rgba(103,195,243,1) 0%, rgba(90,152,242,1) 100%);
+    color: $white;
+}
+.footer__content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-column-gap: 120px;
+}
+.footer__pics {
+    height: 35px;
+}
+.footer__column-title {
+    height: 50px;
+    margin-bottom: 35px;
+}
+.footer__column-item {
+    margin-bottom: 20px;
+    font-weight: 300;
+    &:hover {
+        font-weight: 600;
+    }
+}
+.footer__column-desc {
+    font-weight: 300;
+    margin-bottom: 50px;
+    line-height: 28px;
+}
