@@ -45,19 +45,44 @@ p {
     font-size: 18px;
 }
 .wrapper {
-    width: 95%;
+    width: 90%;
     max-width: 1600px;
     margin: 0 auto;
+    display: flex;
     &--header {
-        display: flex;
         justify-content: space-between;
         align-items: center;
     }
     &--footer {
-        display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: center;
         padding: 110px 0;
+    }
+    &--hero {
+        position: relative;
+        max-width: 1400px;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 190px;
+        }
+    &--services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        margin-bottom: 220px;
+    }
+    &--provider {
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1400px;
+    }
+    &--apps {
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1400px;
+        position: relative;
+        padding-top: 190px;
     }
 }
