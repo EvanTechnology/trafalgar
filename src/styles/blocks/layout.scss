@@ -49,6 +49,13 @@ p {
     max-width: 1600px;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    &--welcome {
+        height: 75vh;
+        position: relative;
+        margin-bottom: 50px;
+    }
     &--header {
         justify-content: space-between;
         align-items: center;
@@ -85,4 +92,10 @@ p {
         position: relative;
         padding-top: 190px;
     }
+}
+.section {
+    &--welcome {
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(6,58,135,1) 10%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, rgba(6,58,135,1) 90%, rgba(255,255,255,1) 100%);
+    }   
 }
