@@ -17,12 +17,20 @@
 }
 .info__btn {
     display: inline-block;
-    background-color: $blue;
-    color: $white;
+    background-color: $white;
+    color: $blue;
     font-weight: bold;
     border-radius: 30px;
+    border: solid 1px $blue;
     padding: 20px 50px;
+    transition: 1s;
+    &:hover {
+        background-color: blue;
+        color: $white;
+        box-shadow: 0 0 50px blue;
+    }
 }
+
 .illustration {
     width: 50%;
 }

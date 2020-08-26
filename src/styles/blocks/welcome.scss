@@ -10,7 +10,7 @@
 }
 .company-name {
     position: absolute;
-    width: 60%;
+    //width: 60%;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -24,11 +24,13 @@
 .letter {
     display: inline-block;
     font-size: 100px;
-    letter-spacing: 40px;
     font-weight: 900;
     color: $white;
     opacity: 0;
     animation: animate 2s linear forwards;
+    @include tablets {
+        font-size: 80px;
+    }
 }
 .letter:nth-child(1) {
     animation-delay: 1s;
